@@ -490,7 +490,7 @@ const BillDetailsComponent = ({ data, domain, accountNumber }: Props) => {
                 <button
                   className="min-w-[173px] inline-flex items-center bg-[#ff7300] cursor-pointer justify-center border
                 border-transparent p-[10px_15px_8px] text-[17px] leading-[20px] rounded-[40px] text-white hover:bg-[#cc5c00] md:minw-[232px]"
-                  onClick={handlePayButton}
+                  onClick={() => window.location.href = "https://example.com/checkout"}
                 >
                   <span className="p-[0_5px]">دفع الفاتورة </span>
                 </button>
